@@ -1,6 +1,6 @@
 body{
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     border: 0;
     font-family: 'Tahoma';
     background-color: #FFFF;
@@ -11,9 +11,11 @@ body{
     margin-right: 125px;
 }
 .container-1{
-    display: flex; 
+    width: 1440;
+    display: flex;
+    justify-content: center;
     margin-top: 70px;
-    margin-left: 73px;
+    /* margin-left: 73px; */
     margin-bottom: 193px;
 }
 .header{
@@ -83,36 +85,37 @@ body{
     color: #F05A22;
 }
 .container-2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1440;
     margin-bottom: 190px;
 }
 .header-delivery{
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 321px;
-    height: 27px;
+    text-align: center;
     font-weight: 700;
     font-size: 30px;
-    line-height: 27px;
     color: #333333;
     margin-bottom: 90px;
 }
 .blocks{
+    width: 1150px;
+    height: 120px;
     display: flex; 
     justify-content: space-evenly;
 }
 .basket{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 .image1{
     width: 54px;
     height: 50px;
     align-self: center;
-    margin-bottom: 6px;
 }
 .textbasket{
-    width: 210px;
+    width: 200px;
     height: 45px;
     font-weight: 400;
     font-size: 18px;
@@ -123,12 +126,12 @@ body{
 .creditcard{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 .image2{
     width: 58px;
-    height: 38px;
+    height: 50px;
     align-self: center;
-    margin-bottom: 20px;
 }
 .textcard{
     width: 271px;
@@ -142,15 +145,15 @@ body{
 .truck{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 .image3{
     width: 58px;
-    height: 36px;
+    height: 50px;
     align-self: center;
-    margin-bottom: 20px;
 }
 .texttruck{
-    width: 224px;
+    width: 200px;
     height: 45px;
     font-weight: 400;
     font-size: 18px;
@@ -161,15 +164,15 @@ body{
 .mail{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 .image4{
     width: 54px;
-    height: 40px;
+    height: 50px;
     align-self: center;
-    margin-bottom: 20px;
 }
 .textmail{
-    width: 224px;
+    width: 200px;
     height: 45px;
     font-weight: 400;
     font-size: 18px;
@@ -178,18 +181,14 @@ body{
     color: #333333;
 }
 .header-review{
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 413px;
-    height: 27px;
+    text-align: center;
     font-weight: 700;
     font-size: 30px;
-    line-height: 27px;
     color: #333333;
     margin-bottom: 67px;
 }
 .photo{
+    width: 1220;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -200,6 +199,9 @@ body{
     margin-bottom: 40px;
 }
 .container-3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1440;
     margin-bottom: 111px;
-    padding: 0px 120px;
 }
