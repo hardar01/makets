@@ -1,0 +1,206 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+html{
+    box-sizing:border-box;
+}
+body{
+    padding: 0;
+    margin: 0 auto;
+    border: 0;
+    background-color: #FFFF;
+}
+@font-face{
+    font-family: 'Proxima Nova Regular';
+    font-display: swap;
+    src: local('Proxima Nova'),
+        url('/fonts/Proxima Nova/proximanova_regular.ttf') format('ttf');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face{
+    font-family: 'Proxima Nova Light';
+    font-display: swap;
+    src: local('Proxima Nova'),
+        url('/fonts/Proxima Nova/proximanova_light.otf') format('otf');
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face{
+    font-family: 'Proxima Nova Bold';
+    font-display: swap;
+    src: local('Proxima Nova'),
+        url('/fonts/Proxima Nova/proximanova_bold.otf') format('otf');
+    font-style: normal;
+    font-weight: 700;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1440;
+    padding-top: 85px;
+}
+.header{
+    text-align: center;
+    font-family: 'Proxima Nova Regular';
+    font-size: 36px;
+    width: 582px;
+    height: 44px;
+    color: #000000;
+    margin-bottom: 125px;
+}
+.blocks{
+    width: 1150px;
+    height: 120px;
+    display: flex; 
+    justify-content: space-evenly;
+}
+.cutter1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.image1{
+    width: 218px;
+    height: 210px;
+    align-self: center;
+    margin-bottom: 20px;
+}
+.textcutter1{
+    text-align: center;
+    width: 114px;
+    height: 16px;
+    font-family: 'Proxima Nova Light';
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 18px;
+}
+.price1{
+    text-align: center;
+    width: 125px;
+    height: 22px;
+    font-family: 'Proxima Nova Bold';
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+.cutter2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.image2{
+    width: 223px;
+    height: 210px;
+    align-self: center;
+    margin-bottom: 20px;
+}
+.textcutter2{
+    text-align: center;
+    width: 109px;
+    height: 16px;
+    font-family: 'Proxima Nova Light';
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 18px;
+}
+.price2{
+    text-align: center;
+    width: 121px;
+    height: 22px;
+    font-family: 'Proxima Nova Bold';
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+.mat{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.image3{
+    width: 212px;
+    height: 208px;
+    align-self: center;
+    margin-bottom: 20px;
+}
+.textmat{
+    text-align: center;
+    width: 160px;
+    height: 16px;
+    font-family: 'Proxima Nova Light';
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 18px;
+}
+.price3{
+    text-align: center;
+    width: 125px;
+    height: 22px;
+    font-family: 'Proxima Nova Bold';
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+.ruler{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.image4{
+    width: 263px;
+    height: 210px;
+    align-self: center;
+    margin-bottom: 20px;
+}
+.textruler{
+    text-align: center;
+    width: 93px;
+    height: 16px;
+    font-family: 'Proxima Nova Light';
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 18px;
+}
+.price4{
+    text-align: center;
+    width: 125px;
+    height: 22px;
+    font-family: 'Proxima Nova Bold';
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+.button{
+    width: 200px;
+    height: 55px;
+    background: rgba(0, 0, 0, 0.0001);
+    border: 1px solid #23BAC1;
+}
+.text1{
+    font-family: 'Proxima Nova Bold';
+    font-size: 13px;
+    color: #23BAC1;
+}
