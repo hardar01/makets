@@ -1,16 +1,8 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, 
+img, dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+table, caption, tbody, tfoot, thead, tr, th, td, footer, header, 
+menu, nav, output, ruby, section, summary {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -77,12 +69,50 @@ body{
 }
 .top{
     background: #F0EFEB;
-
+    margin-bottom: 60px;
 }
 .container{
-    display: flex; 
+   
     margin: 0px 188px; 
 }
-.top__content{
+.block{
     padding: 90px 0px ;
+}
+.top__content{
+    display: flex; 
+}
+.block1__content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 60px 216px 90px 216px;
+}
+.title{
+    font-family: 'Roboto Bold';
+    font-size: 36px;
+    color: #000000;
+}
+.block1__title{
+    text-align: center;
+    margin-bottom: 27px;
+    width: 692px;
+    height: 42px;
+}
+.block1__text{
+    font-family: 'Roboto Regular';
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    width: 640px;
+    height: 69px;
+    margin-bottom: 47px;
+}
+.block__text2{
+    font-family: 'Roboto Regular';
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    width: 400
+    px;
+    height: 23px;
 }
