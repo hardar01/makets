@@ -83,7 +83,7 @@ body{
 }
 .block1__content{
     display: flex;
-    justify-content: center;
+    align-items: center;
     flex-direction: column;
     margin: 60px 216px 90px 216px;
 }
@@ -112,7 +112,6 @@ body{
     font-size: 20px;
     color: #000000;
     text-align: center;
-    width: 400
-    px;
+    width: 400px;
     height: 23px;
 }
