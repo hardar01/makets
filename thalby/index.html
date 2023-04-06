@@ -12,17 +12,23 @@
     <header class="header">
       <div class="container">
         <div class="header__inner">
-          <div class="header__menu">
-            <div class="item-menu">Shop</div>
-            <div class="item-menu">Collections</div>
-            <div class="item-menu">Try a Free Guide</div>
-            <div class="item-menu">Stories</div>
-          </div>
+          <nav class="header__menu">
+            <ul class="menu__list">
+              <li class="item-menu">
+                <a class="menu__list-link" href="#">Shop</a></li>
+              <li class="item-menu">
+                <a class="menu__list-link" href="#">Collections</a></li>
+              <li class="item-menu">
+                <a class="menu__list-link" href="#">Try a Free Guide</a></li>
+              <li class="item-menu">
+                <a class="menu__list-link" href="#">Stories</a></li>
+            </ul>
+          </nav>
           <img src="images/logo.png" class="header__logo">
           <div class="header__icon">
-            <img src="images/insta.png" class="item__icon">
-            <img src="images/search.svg" class="item__icon">
-            <img src="images/bag.svg" class="item__icon">
+            <a class="item__icon__link" href="#"><img src="images/insta.png" class="item__icon"></a>
+            <a class="item__icon__link" href="#"><img src="images/search.svg" class="item__icon"></a>
+            <a class="item__icon__link" href="#"><img src="images/bag.svg" class="item__icon"></a>
           </div>
         </div>
       </div>
@@ -31,8 +37,8 @@
       <div class="container">
         <div class="top__content">
           <div class="top__block">
-            <h1 class="top__title">Fall deeper in love with humanity.</h1>
-            <div class="top__text">Get to know the world through our concise, informative and inspiring guides.</div>
+            <h1 class="top__title">Fall deeper in love with <span>humanity.</span></h1>
+            <p class="top__text">Get to know the world through our concise, informative and inspiring guides.</p>
             <button type="button" class="top__button button">Shop Now</button>
           </div>
           <img src="images/1.png" class="top__image">
@@ -43,10 +49,10 @@
       <div class="container">
         <div class="guides__content">
           <h2 class="guides__title title">Our guides explain countries and cultures.</h2>
-          <div class="guides__text">Are you curious about the world around you? Our guides are for smart 
+          <p class="guides__text">Are you curious about the world around you? Our guides are for smart 
           global citizens, world travelers and engaged residents who want to gain 
-          a deeper understanding of the cultures and societies they care about.</div>
-          <div class="guides__text2">Available as ebooks here and on Amazon.</div>
+          a deeper understanding of the cultures and societies they care about.</p>
+          <p class="guides__text2">Available as ebooks here and on Amazon.</p>
         </div>  
       </div>
     </section>
@@ -56,19 +62,19 @@
         <div class="bestseller__row">
           <div class="bestseller__column">
             <img src="images/2.png" class="item-bestseller__image">
-            <div class="item-bestseller__text">Thalby Guide to French Culture and Heritage</div>
+            <p class="item-bestseller__text">Thalby Guide to French Culture and Heritage</p>
             <div class="item-bestseller__price">USD 6.99</div>
             <div class="item-bestseller__button underline">Add to cart</div>
           </div>
           <div class="bestseller__column">
             <img src="images/3.png" class="item-bestseller__image"/>
-            <div class="item-bestseller__text">Thalby Guide to French People and Society</div>
+            <p class="item-bestseller__text">Thalby Guide to French People and Society</p>
             <div class="item-bestseller__price">USD 6.99</div>
             <div class="item-bestseller__button underline">Add to cart</div>
           </div>
           <div class="bestseller__column">
             <img src="images/4.png" class="item-bestseller__image"/>
-            <div class="item-bestseller__text">Thalby Guide to German Culture and Heritage</div>
+            <p class="item-bestseller__text">Thalby Guide to German Culture and Heritage</p>
             <div class="item-bestseller__price">USD 6.99</div>
             <div class="item-bestseller__button underline">Add to cart</div>
           </div>
@@ -81,9 +87,9 @@
           <img src="images/3.png" class="people__image"/>
           <div class="people__content">
             <h2 class="people__title title">People and Society</h2>
-            <div class="people__text">Our guides to society deliver all 
+            <p class="people__text">Our guides to society deliver all 
             the social insight you need, helping you understand how people live, 
-            love and play today and why communities are the way they are.</div>
+            love and play today and why communities are the way they are.</p>
             <div class="people__button underline">Shop Society Guides</div>
           </div>
         </div>
@@ -94,8 +100,8 @@
         <div class="culture__block">
           <div class="culture__content">
             <h2 class="culture__title title">Culture and Heritage</h2>
-            <div class="culture__text">As well as covering heritage and tradition, our guides to culture introduce 
-              you to the designers, artists and chefs creating at the forefront of today's culture.</div>
+            <p class="culture__text">As well as covering heritage and tradition, our guides to culture introduce 
+              you to the designers, artists and chefs creating at the forefront of today's culture.</p>
             <div class="culture__button underline">Shop Culture Guides</div>
           </div>
           <img src="images/9.png" class="culture__image"/>
@@ -108,8 +114,8 @@
           <img src="images/5.png" class="power__image"/>
           <div class="power__content">
             <h2 class="power__title title">Power and Politics</h2>
-            <div class="power__text">Our guides to power take you behind the scenes to explore the power dynamics, 
-              policies and politics shaping a country's future and its global position.</div>
+            <p class="power__text">Our guides to power take you behind the scenes to explore the power dynamics, 
+              policies and politics shaping a country's future and its global position.</p>
             <div class="power__button underline">Coming 2022!</div>
           </div>
         </div>
@@ -122,27 +128,27 @@
           <div class="feature__grid">
             <div class="feature__column">
               <div class="item-feature__color clr1"></div>
-              <div class="item-feature__text elem1">Written by locals</div>
+              <p class="item-feature__text elem1">Written by locals</p>
             </div>
             <div class="feature__column">
               <div class="item-feature__color clr2"></div>
-              <div class="item-feature__text elem2">Packed with insight</div>
+              <p class="item-feature__text elem2">Packed with insight</p>
             </div>
             <div class="feature__column">
               <div class="item-feature__color clr3"></div>
-              <div class="item-feature__text elem3" >Interviews with diverse voices</div>
+              <p class="item-feature__text elem3" >Interviews with diverse voices</p>
             </div>
             <div class="feature__column">
               <div class="item-feature__color clr4"></div>
-              <div class="item-feature__text elem4">Key facts and etiquette tips</div>
+              <p class="item-feature__text elem4">Key facts and etiquette tips</p>
             </div>
             <div class="feature__column">
               <div class="item-feature__color clr5"></div>
-              <div class="item-feature__text elem5">A concise 1-hour read</div>
+              <p class="item-feature__text elem5">A concise 1-hour read</p>
             </div>
             <div class="feature__column">
               <div class="item-feature__color clr6"></div>
-              <div class="item-feature__text elem6">Instant digital access</div>
+              <p class="item-feature__text elem6">Instant digital access</p>
             </div>
           </div>
           
@@ -155,23 +161,23 @@
         <div class="interview__row">
           <div class="interview__column">
             <img src="images/6.png" class="item-interview__image"/>
-            <div class="item-interview__review">"I don’t like things to be conventional. If it’s too nice, I bring disorder."</div>
-            <div class="item-interview__name">Camille Muller,</div>
-            <div class="item-interview__text">Landscape Designer, France</div>
+            <p class="item-interview__review">"I don’t like things to be conventional. If it’s too nice, I bring disorder."</p>
+            <p class="item-interview__name">Camille Muller,</p>
+            <p class="item-interview__text">Landscape Designer, France</p>
             <div class="item-interview__button underline">Discover</div>
           </div>
           <div class="interview__column">
             <img src="images/7.png" class="item-interview__image"/>
-            <div class="item-interview__review">"Magic is not magic in the sense that I can just wish for anything."</div>
-            <div class="item-interview__name">Sonia Kowalewski,</div>
-            <div class="item-interview__text">Witch, Germany</div>
+            <p class="item-interview__review">"Magic is not magic in the sense that I can just wish for anything."</p>
+            <p class="item-interview__name">Sonia Kowalewski,</p>
+            <p class="item-interview__text">Witch, Germany</p>
             <div class="item-interview__button underline">Discover</div>
           </div>
           <div class="interview__column">
             <img src="images/8.png" class="item-interview__image"/>
-            <div class="item-interview__review">"I was eight years old when I entered my first competition. I won it."</div>
-            <div class="item-interview__name">Lilly Stoephasius,</div>
-            <div class="item-interview__text">Skateboarder, Germany</div>
+            <p class="item-interview__review">"I was eight years old when I entered my first competition. I won it."</p>
+            <p class="item-interview__name">Lilly Stoephasius,</p>
+            <p class="item-interview__text">Skateboarder, Germany</p>
             <div class="item-interview__button underline">Discover</div>
           </div>
           <div class="rectangle"></div>
@@ -183,44 +189,48 @@
       <div class="container">
         <div class="subscribe__title title">Keep in touch</div>
         <div class="subscribe__block">
-          <div class="subscribe__text">Get our travel advice, global views and travel freebies in your inbox</div>
-          <div class="subscribe__form">
-            <input class="subscribe__input name" placeholder="First Name">
-            <input class="subscribe__input name" placeholder="Last Name">
-            <input class="subscribe__input email" placeholder="Email">
-          </div> 
-          <button type="button" class="subscribe__button button">Subscribe</button> 
+          <p class="subscribe__text">Get our travel advice, global views and travel freebies in your inbox</p>
+          <form>
+            <div class="subscribe__form">
+              <input class="subscribe__input name" placeholder="First Name">
+              <input class="subscribe__input name" placeholder="Last Name">
+              <input class="subscribe__input email" placeholder="Email">
+            </div> 
+            <button class="subscribe__button button">Subscribe</button>
+          </form> 
         </div>      
       </div>
     </section>
     <footer class="footer">
-      <div class="footer__inner">
-        <div class="footer__icon">
-          <img src="images/logo1.svg" class="footer__logo">
-          <img src="images/facebook.svg" class="item__icon">
-          <img src="images/insta1.svg" class="item__icon">
-          <img src="images/twitter.svg" class="item__icon">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__icon">
+            <img src="images/logo1.svg" class="footer__logo">
+            <a class="item__icon__link" href="#"><img src="images/facebook.svg" class="item__ficon"></a>
+            <a class="item__icon__link" href="#"><img src="images/insta1.svg" class="item__ficon"></a>
+            <a class="item__icon__link" href="#"><img src="images/twitter.svg" class="item__ficon"></a>
+          </div>
+          <div class="footer_info">
+            <div class="footer__about">
+              <p class="footer__h text"> ABOUT</p>
+              <div class="item-footer__about">
+                <div class="item-footer__text text">About Us</div>
+                <div class="item-footer__text text">Privacy Policy</div>
+                <div class="item-footer__text text">Terms and Conditions</div>
+                <div class="item-footer__text text">Write for Us</div>
+              </div>
+            </div>
+            <div class="footer__contact">
+              <p class="footer__h text"> CONTACT</p>
+              <div class="item-footer__contact">
+                <div class="item-footer__text text">Email hi@thalby.com</div>
+                <div class="item-footer__text text">Help</div>
+              </div>
+            </div>
+          </div> 
         </div>
-        <div class="footer_info">
-          <div class="footer__about">
-            <div class="footer__h text"> ABOUT</div>
-            <div class="item-footer__about">
-              <div class="item-footer__text text">About Us</div>
-              <div class="item-footer__text text">Privacy Policy</div>
-              <div class="item-footer__text text">Terms and Conditions</div>
-              <div class="item-footer__text text">Write for Us</div>
-            </div>
-          </div>
-          <div class="footer__contact">
-            <div class="footer__h text"> CONTACT</div>
-            <div class="item-footer__contact">
-              <div class="item-footer__text text">Email hi@thalby.com</div>
-              <div class="item-footer__text text">Help</div>
-            </div>
-          </div>
-        </div> 
+        <p class="footer__label text">Thalby LLC © 2021</p>
       </div>
-      <div class="footer__label text">Thalby LLC © 2021</div>
     </footer>
   </body>
 </html>
